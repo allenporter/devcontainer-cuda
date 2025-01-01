@@ -1,18 +1,4 @@
 {
-	"name": "CUDA",
-	"build": {
-		"dockerfile": "./Dockerfile"
-	},
-
-	// Configure tool-specific properties.
-	"customizations": {
-		// Configure properties specific to VS Code.
-		"vscode": {
-			"settings": {},
-			"extensions": [
-				"streetsidesoftware.code-spell-checker"
-			]
-		}
-	},
-
+    "name": "CUDA",
+    "image": "nvcr.io/nvidia/cuda:12.4.1-base-ubuntu22.04",
 }
