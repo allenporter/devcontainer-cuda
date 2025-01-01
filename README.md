@@ -12,11 +12,12 @@ This is a set of commands to get an ollama dev environment working
 
 ```bash
 $ apt-get update
-$ apt-get install git make gcc g++ curl
+$ apt-get install git make gcc g++ curl vim
 $ cd /tmp
 $ curl -OL https://go.dev/dl/go1.23.4.linux-amd64.tar.gz
 $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.4.linux-amd64.tar.gz
-$ export PATH=$PATH:/usr/local/go/bin
+$ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
+$ source ~/.bashrc
 $ go version
 ``
 
