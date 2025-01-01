@@ -1,4 +1,4 @@
 {
     "name": "CUDA",
-    "image": "nvcr.io/nvidia/cuda:12.4.1-base-ubuntu22.04",
+    "image": "nvcr.io/nvidia/cuda:12.4.1-devel-ubuntu22.04",
 }
